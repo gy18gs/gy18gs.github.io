@@ -1,4 +1,8 @@
+import matplotlib.pyplot
+import operator
 import random
+agents = []
+agents.append([random.randint(0,99),random.randint(0,99)])
 # -*- coding: utf-8 -*-
 """
 Spyder Editor
@@ -21,27 +25,42 @@ prit (text)
 # Make a y variable.
 # Make a x variable.
 # Change y and x based on random numbers.
-y0 = 50
-x0 = 50
+random_number = random.randint(0,99)
+y0 = random_number
+random_number = random.randint(0,99)
+x0 = random_number
 
+agents.append([y0,x0])
+print (agents)
+print (max(agents))
+
+"""
+agents=[] creates empty list we can add sets of coordinates to
+replace all uses of y0 with agents[0][0], and x0 with agents [0][1]
+to get rid of y0 and x0 
+instead of agents.append([y0,x0]) do
+agents = []
+agents.append([random.randint(0,99),random.randint(0,99)])
+"""
+"""
 if random.random() < 0.5:
-        y0 += 1
+        agents [0][0] += 1
 else:
-        y0 -= 1
+        agents [0][0] -= 1
 if random.random() < 0.5:
-        x0 += 1
+        agents [0][1] += 1
 else:
-        x0 -= 1
+        agents [0][1] -= 1
 print (y0, x0)
 
 if random.random() < 0.5:
-        y0 += 1
+        agents [0][0] += 1
 else:
-        y0 -= 1
+        agents [0][0] -= 1
 if random.random() < 0.5:
-        x0 += 1
+        agents [0][1] += 1
 else:
-        x0 -= 1
+        agents [0][1] -= 1
 print (y0, x0)
 
 
@@ -85,6 +104,14 @@ y0 = random_number
 random_number = random.randint(0,99)
 x0 = random_number
 print (y0, x0)
+"""
+print(max(agents, key=operator.itemgetter(1)))
+
+matplotlib.pyplot.ylim(0, 99)
+matplotlib.pyplot.xlim(0, 99)
+matplotlib.pyplot.scatter(agents[0][1],agents[0][0])
+matplotlib.pyplot.scatter(agents[1][1],agents[1][0])
+matplotlib.pyplot.show()
 
 
 
