@@ -4,7 +4,7 @@ import random
 num_of_agents = 10
 num_of_iterations = 5
 agents = []
-#hgjkhjk
+#helloworld
 #created agents
 for i in range(num_of_agents):
     agents.append([random.randint(0,100),random.randint(0,100)])
