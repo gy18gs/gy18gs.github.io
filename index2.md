@@ -8,10 +8,8 @@ title: Test
 
 ---
 
-### *Who am I?*
-##### I am a GIS Master's student at the University of Leeds
-
----
+<p>### *Who am I?*
+##### I am a GIS Master's student at the University of Leeds</p>
 
 
 ### *What is this website for?*
