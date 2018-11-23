@@ -15,7 +15,7 @@ title: Georgia Scott's page
 
 ### *What is this website for?*
 
-##### This website is an online portfolio for my Programming for Spatial Analysts module
+##### This website is an online portfolio for my Programming for Spatial Analysts module, an introduction to programming and my first experience of using Python!
 
 
 ### *So, what does the model do?*
