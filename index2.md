@@ -18,7 +18,7 @@ title: Test
 ### *What is this website for?*
 ##### This website is an online portfolio for my Programming for Spatial Analysts module, an introduction to programming.
 
-#### The files provided that are useful for the GEOG5990 assessment are License.txt, blurtest.py, agentframework.py, and agents.py
+#### The files provided for the GEOG5990 assessment are License.txt, agentframework.py, and agents.py
 
 ---
 
