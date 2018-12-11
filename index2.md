@@ -28,8 +28,8 @@ title: Test
 ##### The model is an agent-based model, which contains 3 basic elements:
 #### **Model** code, which sets up the model, interacts with the user, and runs the model iterations and checks the stopping conditions.
 #### **Agent** code, which builds agents, defines their behaviour, and any records of their state.
-Agents often have behaviours based around what is happening in the neighbourhood in which they are contained.
-Each agent will contain a list of all the other agents, so that agents can communicate with each other.
+#### Agents often have behaviours based around what is happening in the neighbourhood in which they are contained.
+#### Each agent will contain a list of all the other agents, so that agents can communicate with each other.
 #### **Environment** code, which represents the 'world' in which agents interact. This contains data as well as constraint the space and topology the agents can exist within.
 
 
