@@ -20,9 +20,9 @@ title: Test
 #### This website is an online portfolio for my introductory programming module, GEOG5990.
 
 #### The files provided for the GEOG5990 Assessment 1 are:
-####+ License.txt
-####+ agentframework.py
-####+ agents.py
+* #### License.txt
+* #### agentframework.py
+* #### agents.py
 
 ---
 
@@ -34,5 +34,10 @@ title: Test
 ..Agents often have behaviours based around what is happening in the neighbourhood in which they are contained. ..
 ..Each agent will contain a list of all the other agents, so that agents can communicate with each other. ..
 #### **Environment** code, which represents the 'world' in which agents interact. This contains data as well as constraint the space and topology the agents can exist within.
+
+---
+
+## *What can I expect when I run the model?
+
 
 
