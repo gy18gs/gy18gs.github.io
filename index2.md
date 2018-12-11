@@ -15,7 +15,6 @@ title: Test
 
 ---
 
-
 ## *What is this website for?*
 #### This website is an online portfolio for my introductory programming module, GEOG5990.
 
@@ -26,7 +25,6 @@ title: Test
 
 ---
 
-
 ## *So, what does the model do?*
 ##### The model is an agent-based model, which contains 3 basic elements:
 #### **Model** code, which sets up the model, interacts with the user, and runs the model iterations and checks the stopping conditions.
@@ -35,7 +33,12 @@ title: Test
 
 ---
 
-## *What can I expect when I run the model?
+## *What can I expect when I run the model?*
+#### This agent based model runs from a GUI in which there is a run menu.
+
+
+
+### In future versions of this model, I would hope to be able to write code that prevent the 'Figure 1' popup from appearing alongside the 'Model' popup. At the moment, the 'Figure 1' does nothing and is harmless, however, ideally only the Model popup would appear when the code is run!
 
 
 
