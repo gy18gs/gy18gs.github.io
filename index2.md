@@ -37,8 +37,7 @@ title: Test
 #### This agent based model runs from a GUI in which there is a run menu.
 
 
-
-### In future versions of this model, I would hope to be able to write code that prevent the 'Figure 1' popup from appearing alongside the 'Model' popup. At the moment, the 'Figure 1' does nothing and is harmless, however, ideally only the Model popup would appear when the code is run!
+##### In future versions of this model, I would hope to be able to write code that prevent the 'Figure 1' popup from appearing alongside the 'Model' popup. At the moment, the 'Figure 1' does nothing and is harmless, however, ideally only the Model popup would appear when the code is run!
 
 
 
