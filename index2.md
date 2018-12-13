@@ -47,7 +47,6 @@ title: Test
 
 #### The model displays blue and red agents, moving in space and 'eating' the 2D raster environment.
 #### The starting location of the agents is determined from a web source, so the starting locations are always the same. However, the agents are shuffled randomly after each iteration of the model.
-#### 
 
 
 ##### In future versions of this model, I would hope to be able to write code that prevent the 'Figure 1' popup from appearing alongside the 'Model' popup. At the moment, the 'Figure 1' does nothing and is harmless, however, ideally only the Model popup would appear when the code is run!
