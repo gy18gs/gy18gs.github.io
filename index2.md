@@ -37,16 +37,20 @@ title: Test
 #### This agent based model runs from a GUI in which there is a run menu. To run the model:
 ##### 1. Restart the kernel
 ##### 2. Select the 'Model' popup from your desktop
-![Desktop screenshot] (file:////Users/Georgia/Desktop/GEOG5990/gy18gs.github.io/gy18gs.github.io/Desktop.png)
+![Desktop screenshot] (file:///Users/Georgia/Desktop/GEOG5990/gy18gs.github.io/gy18gs.github.io/Desktop.png)
 ##### 3. Select 'Model' > 'Run model' from the menu bar
 
-### *What is the agent framework?*
+#### The model displays blue and red agents, moving in space and 'eating' the 2D raster environment.
+#### The starting location of the agents is determined from a web source, so the starting locations are always the same. However, the agents are shuffled randomly after each iteration of the model.
+
+---
+
+### *Model components: What is the agent framework?*
 #### The agent framework holds a basic agent class to support the agents model, the agents are stored in a 2D raster environment, and this environment is shared with all other agents in the model.
 #### The agent framework tells the agents how to interact with each other within the neighbourhood.
 ##### The neighbourhood has a radius of 20, 
 
-#### The model displays blue and red agents, moving in space and 'eating' the 2D raster environment.
-#### The starting location of the agents is determined from a web source, so the starting locations are always the same. However, the agents are shuffled randomly after each iteration of the model.
+
 
 
 ##### In future versions of this model, I would hope to be able to write code that prevent the 'Figure 1' popup from appearing alongside the 'Model' popup. At the moment, the 'Figure 1' does nothing and is harmless, however, ideally only the Model popup would appear when the code is run!
