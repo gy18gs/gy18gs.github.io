@@ -37,6 +37,7 @@ title: Test
 #### This agent based model runs from a GUI in which there is a run menu. To run the model:
 ##### 1. Restart the kernel
 ##### 2. Select the 'Model' popup from your desktop
+![Desktop screenshot] (/Users/Georgia/Desktop/GEOG5990/Desktop.png)
 ##### 3. Select 'Model' > 'Run model' from the menu bar
 
 ### *What is the agent framework?*
