@@ -65,8 +65,7 @@ td_xs = soup.find_all(attrs={"class" : "x"})
 """
 Step 3:
     Creating the environment.
-    The imported csv is raster data, with each value being
-    equivalent to a pixel in an image, arranged in a grid.
+    The imported csv is raster data, with each value being equivalent to a pixel in an image, arranged in a grid.
         This raster grid is the environment in which the agents interact.
     
     The environment = [] is the empty container in which to put this raster environment
