@@ -40,7 +40,7 @@ title: Test
 #### This agent based model runs from a GUI in which there is a run menu. To run the model:
 #### 1. Restart the kernel
 #### 2. Select the 'Model' popup from your desktop
-[<img src="https://github.com/gy18gs/gy18gs.github.io/blob/master/Desktop.png">](https://github.com/gy18gs/gy18gs.github.io/)
+[<img src="https://github.com/gy18gs/gy18gs.github.io/blob/master/Desktop.png">](https://github.com/gy18gs/gy18gs.github.io/blob/master/Desktop.png)
 #### 3. Select 'Model' > 'Run model' from the menu bar.
 ## *
 ### *What can I expect when I run the model?*
