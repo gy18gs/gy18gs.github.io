@@ -33,14 +33,15 @@ title: Test
 ### The model is an agent-based model, which contains 3 basic elements:
 ### **Model** code:
 #### Which sets up the model, interacts with the user, and runs the model iterations and checks the stopping conditions.
+### **Environment** code:
+#### Which represents the 'world' in which agents interact. This contains data as well as constraint the space and topology the agents can exist within -- *the **environment** is from an imported CSV of raster data, with each value being equivalent to a pixel in an image, arranged in a grid - this is where the agents interact.*
 ### **Agent** code: 
 #### Which builds agents, defines their behaviour, and any records of their state. Agents often have behaviours based around what is happening in the neighbourhood in which they are contained. Each agent will contain a list of all the other agents, so that agents can communicate with each other.
 ### The **agent framework** holds a basic agent class to support the agents model, the agents are stored in a **2D raster environment**, and this environment is shared with all other agents in the model -- *the **agent framework** tells the agents how to interact with each other within the **neighbourhood**.*
 #### The **neighbourhood** has a radius of 20:
 ##### -- if an agent is in the neighbourhood radius, the stores can be **shared** - you add the sum of the agent store and the self store, this is made to an average and split evenly between the two
 ##### -- if the distance between self and agent exceeds 20, **no sharing takes place** as the agent is not in the neighbourhood.
-### **Environment** code:
-#### Which represents the 'world' in which agents interact. This contains data as well as constraint the space and topology the agents can exist within -- *the **environment** is from an imported CSV of raster data, with each value being equivalent to a pixel in an image, arranged in a grid - this is where the agents interact.*
+
 
 ---
 ## *Running the model*
