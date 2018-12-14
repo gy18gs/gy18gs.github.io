@@ -37,7 +37,8 @@ title: Test
 #### This agent based model runs from a GUI in which there is a run menu. To run the model:
 ##### 1. Restart the kernel
 ##### 2. Select the 'Model' popup from your desktop
-<div style="width:50%">![Desktop screenshot](file://Users/Georgia/Desktop/GEOG5990/gy18gs.github.io/gy18gs.github.io/Desktop.png =250x)
+![Desktop screenshot](file://Users/Georgia/Desktop/GEOG5990/gy18gs.github.io/gy18gs.github.io/Desktop.png =250x)
+
 ##### 3. Select 'Model' > 'Run model' from the menu bar
 
 #### The model displays blue and red agents, moving in space and 'eating' the 2D raster environment.
@@ -48,7 +49,9 @@ title: Test
 ### *Model components: What is the agent framework?*
 #### The agent framework holds a basic agent class to support the agents model, the agents are stored in a 2D raster environment, and this environment is shared with all other agents in the model.
 #### The agent framework tells the agents how to interact with each other within the neighbourhood.
-##### The neighbourhood has a radius of 20, 
+#### The neighbourhood has a radius of 20:
+#### -- if an agent is in the neighbourhood radius, the stores can be shared - you add the sum of the agent store and the self store, this is made to an average and split evenly between the two
+#### -- if the distance between self and agent exceeds 20, no sharing takes place as the agent is not in the neighbourhood.
 
 
 
