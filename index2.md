@@ -42,6 +42,9 @@ title: Test
 #### 2. Select the 'Model' popup from your desktop
 [<img src="https://github.com/gy18gs/gy18gs.github.io/blob/master/Desktop.png">](https://github.com/gy18gs/gy18gs.github.io/blob/master/Desktop.png)
 #### 3. Select 'Model' > 'Run model' from the menu bar.
+[<img src="https://github.com/gy18gs/gy18gs.github.io/blob/master/Model_popup.png">](https://github.com/gy18gs/gy18gs.github.io/blob/master/Model_popup.png)
+#### This will then run the model, after a few moments, it will look like this below:
+[<img src="https://github.com/gy18gs/gy18gs.github.io/blob/master/Model.png">](https://github.com/gy18gs/gy18gs.github.io/blob/master/Model.png)
 ## *
 ### *What can I expect when I run the model?*
 #### The model displays blue and red agents, moving in space and 'eating' the 2D raster environment. *The agents are set up to be coloured red when they represent an even number, and blue when they represent an odd number.*
