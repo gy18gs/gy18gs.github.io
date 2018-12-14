@@ -34,7 +34,7 @@ title: Test
 ### >**Model** code:
 #### Which sets up the model, interacts with the user, and runs the model iterations and checks the stopping conditions.
 ### >**Environment** code:
-#### Which represents the 'world' in which agents interact. This contains data as well as constraint the space and topology the agents can exist within -- *the **environment** is from an imported CSV of raster data, with each value being equivalent to a pixel in an image, arranged in a grid - this is where the agents interact.*Ma
+#### Which represents the 'world' in which agents interact. This contains data as well as constraint the space and topology the agents can exist within -- *the **environment** is from an imported CSV of raster data, with each value being equivalent to a pixel in an image, arranged in a grid - this is where the agents interact.*
 ### >**Agent** code: 
 #### Which builds agents, defines their behaviour, and any records of their state. Agents often have behaviours based around what is happening in the neighbourhood in which they are contained. Each agent will contain a list of all the other agents, so that agents can communicate with each other.
 #### The **agent framework** holds a basic agent class to support the agents model, the agents are stored in a **2D raster environment**, and this environment is shared with all other agents in the model -- *the **agent framework** tells the agents how to interact with each other within the **neighbourhood**.*
