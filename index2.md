@@ -30,7 +30,7 @@ title: Test
 #### **Model** code, which sets up the model, interacts with the user, and runs the model iterations and checks the stopping conditions.
 #### **Agent** code, which builds agents, defines their behaviour, and any records of their state. Agents often have behaviours based around what is happening in the neighbourhood in which they are contained. Each agent will contain a list of all the other agents, so that agents can communicate with each other.
 #### **Environment** code, which represents the 'world' in which agents interact. This contains data as well as constraint the space and topology the agents can exist within.
-##### The **environment** is from an imported CSV of raster data, with each value being equivalent to a pixel in an image, arranged in a grid - this is where the agents interact.
+##### -- the **environment** is from an imported CSV of raster data, with each value being equivalent to a pixel in an image, arranged in a grid - this is where the agents interact.
 
 ---
 ## *Running the model*
@@ -40,12 +40,11 @@ title: Test
 ##### 2. Select the 'Model' popup from your desktop
 ![Desktop screenshot](file://Users/Georgia/Desktop/GEOG5990/gy18gs.github.io/gy18gs.github.io/Desktop.png =250x)
 ##### 3. Select 'Model' > 'Run model' from the menu bar
-*
+## *
 ### *What can I expect when I run the model?*
-#### The model displays blue and red agents, moving in space and 'eating' the 2D raster environment.
-*The agents are set up to be coloured red when they represent an even number, and blue when they represent an odd number.*
+#### The model displays blue and red agents, moving in space and 'eating' the 2D raster environment. *The agents are set up to be coloured red when they represent an even number, and blue when they represent an odd number.*
 #### The starting location of the agents is determined from a web source, so the starting locations are always the same. However, the agents are shuffled randomly after each iteration of the model. *This ensures that the sharing of the agent stores doesn't favour one agent over another.*
-#### As the model is run, the IPython console displays the distance between the agents and the store value.
+#### As the model is run, the IPython console displays: **the distance between the agents** and the **store value.**
 
 ---
 
