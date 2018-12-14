@@ -19,10 +19,10 @@ title: Test
 #### This website is an online portfolio for my introductory programming module, GEOG5990.
 
 #### The files provided for the GEOG5990 Assessment 1 are:
-* #### License.txt
-* #### agentframework.py
-* #### agents.py
-* #### index2.md (hand-coded markdown)
+* #### **License.txt**
+* #### **agentframework.py**
+* #### **agents.py**
+* #### and index2.md (hand-coded markdown)
 
 ##### These can be accessed through the 'View on GitHub' link at the top of this webpage.
 
@@ -32,8 +32,7 @@ title: Test
 ### The model is an agent-based model, which contains 3 basic elements:
 #### **Model** code, which sets up the model, interacts with the user, and runs the model iterations and checks the stopping conditions.
 #### **Agent** code, which builds agents, defines their behaviour, and any records of their state. Agents often have behaviours based around what is happening in the neighbourhood in which they are contained. Each agent will contain a list of all the other agents, so that agents can communicate with each other.
-#### **Environment** code, which represents the 'world' in which agents interact. This contains data as well as constraint the space and topology the agents can exist within.
-##### -- the **environment** is from an imported CSV of raster data, with each value being equivalent to a pixel in an image, arranged in a grid - this is where the agents interact.
+#### **Environment** code, which represents the 'world' in which agents interact. This contains data as well as constraint the space and topology the agents can exist within. ##### -- the **environment** is from an imported CSV of raster data, with each value being equivalent to a pixel in an image, arranged in a grid - this is where the agents interact.
 
 ---
 ## *Running the model*
