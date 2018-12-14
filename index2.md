@@ -39,10 +39,11 @@ title: Test
 ## *Running the model*
 ### *How do I run the model?*
 #### This agent based model runs from a GUI in which there is a run menu. To run the model:
-#### 1. Clear/restart the kernel
-#### 2. Select the 'Model' popup from your desktop
+#### 1. Make sure that under \Tools\ > \Preferences\ > IPython console > the 'Graphics backend' is set to **Tkinter**
+#### 2. Clear/restart the kernel
+#### 3. Select the 'Model' popup from your desktop
 [<img src="https://github.com/gy18gs/gy18gs.github.io/blob/master/Desktop.png">](https://github.com/gy18gs/gy18gs.github.io/blob/master/Desktop.png)
-#### 3. Select 'Model' > 'Run model' from the menu bar.
+#### 4. Select 'Model' > 'Run model' from the menu bar.
 [<img src="https://github.com/gy18gs/gy18gs.github.io/blob/master/Model_popup.png">](https://github.com/gy18gs/gy18gs.github.io/blob/master/Model_popup.png)
 #### This will then run the model, after a few moments, it will look like this below:
 [<img src="https://github.com/gy18gs/gy18gs.github.io/blob/master/Model.png">](https://github.com/gy18gs/gy18gs.github.io/blob/master/Model.png)
