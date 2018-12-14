@@ -42,8 +42,8 @@ title: Test
 ##### 3. Select 'Model' > 'Run model' from the menu bar
 *
 ### *What can I expect when I run the model?*
-#### ⋅⋅The model displays blue and red agents, moving in space and 'eating' the 2D raster environment.⋅⋅
-⋅⋅*The agents are set up to be coloured red when they represent an even number, and blue when they represent an odd number.*⋅⋅
+#### The model displays blue and red agents, moving in space and 'eating' the 2D raster environment.
+*The agents are set up to be coloured red when they represent an even number, and blue when they represent an odd number.*
 #### The starting location of the agents is determined from a web source, so the starting locations are always the same. However, the agents are shuffled randomly after each iteration of the model. *This ensures that the sharing of the agent stores doesn't favour one agent over another.*
 #### As the model is run, the IPython console displays the distance between the agents and the store value.
 
