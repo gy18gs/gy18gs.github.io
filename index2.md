@@ -22,6 +22,7 @@ title: Test
 * #### License.txt
 * #### agentframework.py
 * #### agents.py
+* #### index2.md (hand-coded markdown)
 
 ##### These can be accessed through the 'View on GitHub' link at the top of this webpage.
 
